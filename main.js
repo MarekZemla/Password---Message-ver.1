@@ -10,7 +10,7 @@ e.target.value = "";
 else {
     div.textContent = "";
 }
-});
+})
 
 input.addEventListener('focus', (e) =>{
 e.target.classList.add('active');
